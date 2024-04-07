@@ -21,17 +21,18 @@ class CategoryMealActivity : AppCompatActivity() {
         setContentView(viewBinding.root)
         prepareRecycler()
         categoryMealViewModel = ViewModelProvider(this)[CategoriesMealViewModel::class.java]
-        categoryMealViewModel.getMealByCategory(intent.getStringExtra("CATEGORY_MEAl_NAME")!!)
+        nameOfCategory = intent.getStringExtra("CATEGORY_MEAl_NAME")!!
+        categoryMealViewModel.getMealByCategory(nameOfCategory)
+        getTheTotalNumbersOfMeals()
+
        // getDataFromIntent()
         subscribeToLiveData()
         onMealClick()
 
     }
 
-    private fun getDataFromIntent() {
-       var intent = intent
-        nameOfCategory = intent.getStringExtra("CATEGORY_MEAL_NAME")!!
-        categoryMealViewModel.getMealByCategory(nameOfCategory)
+    private fun getTheTotalNumbersOfMeals() {
+
 
     }
 
@@ -59,6 +60,7 @@ class CategoryMealActivity : AppCompatActivity() {
     private fun subscribeToLiveData() {
         categoryMealViewModel.mealsLiveData.observe(this){mealsList->
                     categoryMealAdapter.setTheMeals(mealsList)
+            viewBinding.tvCategoryCount.text = mealsList?.size.toString()
         }
     }
 }
