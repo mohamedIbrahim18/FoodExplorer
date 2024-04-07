@@ -45,5 +45,13 @@ class MealsAdapter : RecyclerView.Adapter<MealsAdapter.FavoritesMealViewHolder>(
             .into(holder.binding.imgMeal)
 
         holder.binding.tvMealName.text = meal.strMeal
+        holder.binding.imgMeal.setOnClickListener {
+            onItemClickListner?.onItemClick(position,meal!!)
+        }
+    }
+    var onItemClickListner: OnItemClickListener? = null
+
+    interface OnItemClickListener{
+        fun onItemClick(position: Int, meal: MealsInformation)
     }
 }
