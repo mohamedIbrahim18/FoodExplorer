@@ -1,5 +1,5 @@
-FoodApplication App
-FoodApplication is a mobile application designed to help users discover the most popular foods and where to find them. Whether you're a food enthusiast looking to explore new culinary experiences or a traveler seeking local delicacies, FoodApplication has got you covered.
+FoodExplorer App
+FoodExplorer is a mobile application designed to help users discover the most popular foods and where to find them. Whether you're a food enthusiast looking to explore new culinary experiences or a traveler seeking local delicacies, FoodExplorer has got you covered.
 
 Features
 Popular Foods: Discover trending foods based on user ratings and reviews.
@@ -14,6 +14,7 @@ Navigation: Android Navigation Component
 Database: Room Database for local storage
 Concurrency: Kotlin Coroutines for asynchronous programming
 
+![0](https://github.com/mohamedIbrahim18/Food_Application/assets/90982978/fcae2ae2-f16e-4412-9be9-764a03da4a7a)
 ![2](https://github.com/mohamedIbrahim18/Food_Application/assets/90982978/ec15f59e-35d6-4d31-9c66-97475218c252)
 ![4](https://github.com/mohamedIbrahim18/Food_Application/assets/90982978/fb177d82-f6e0-42c2-8665-edf972d85c7a)
 ![5](https://github.com/mohamedIbrahim18/Food_Application/assets/90982978/95a8eca4-7f49-4b79-995e-7e32b45ac8fd)
