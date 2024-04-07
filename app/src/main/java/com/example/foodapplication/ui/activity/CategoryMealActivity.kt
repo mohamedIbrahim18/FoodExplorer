@@ -1,4 +1,4 @@
-package com.example.foodapplication.activity
+package com.example.foodapplication.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -39,7 +39,7 @@ class CategoryMealActivity : AppCompatActivity() {
     private fun onMealClick() {
         categoryMealAdapter.onItemClickedListener = object :CategoryMealAdapter.OnItemClickListener{
             override fun onItemClick(position: Int, meal: PopularMealsItem) {
-                val intent = Intent(this@CategoryMealActivity,MealActivity::class.java)
+                val intent = Intent(this@CategoryMealActivity, MealActivity::class.java)
                 intent.putExtra("MEAL_ID", meal.idMeal)
                 intent.putExtra("MEAL_NAME", meal.strMeal)
                 intent.putExtra("MEAL_IMG", meal.strMealThumb)

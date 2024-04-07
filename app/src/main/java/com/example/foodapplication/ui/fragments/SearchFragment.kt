@@ -1,4 +1,4 @@
-package com.example.foodapplication.fragments
+package com.example.foodapplication.ui.fragments
 
 import android.os.Bundle
 import android.util.Log
@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.foodapplication.activity.MainActivity
+import com.example.foodapplication.ui.activity.MainActivity
 import com.example.foodapplication.adapter.MealsAdapter
 import com.example.foodapplication.databinding.FragmentSearchBinding
 import com.example.foodapplication.viewmodel.HomeViewModel

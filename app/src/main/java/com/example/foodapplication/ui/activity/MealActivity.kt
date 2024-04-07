@@ -1,4 +1,4 @@
-package com.example.foodapplication.activity
+package com.example.foodapplication.ui.activity
 
 import android.content.Intent
 import android.net.Uri
@@ -16,7 +16,7 @@ import com.bumptech.glide.Glide
 import com.example.foodapplication.R
 import com.example.foodapplication.databinding.ActivityMealBinding
 import com.example.foodapplication.db.MealDataBase
-import com.example.foodapplication.fragments.HomeFragment
+import com.example.foodapplication.ui.fragments.HomeFragment
 import com.example.foodapplication.model.MealsInformation
 import com.example.foodapplication.viewmodel.MealViewModel
 import com.example.foodapplication.viewmodel.MealViewModelFactory

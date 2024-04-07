@@ -1,4 +1,4 @@
-package com.example.foodapplication.fragments
+package com.example.foodapplication.ui.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.example.foodapplication.R
-import com.example.foodapplication.activity.CategoryMealActivity
-import com.example.foodapplication.activity.MainActivity
-import com.example.foodapplication.activity.MealActivity
+import com.example.foodapplication.ui.activity.CategoryMealActivity
+import com.example.foodapplication.ui.activity.MainActivity
+import com.example.foodapplication.ui.activity.MealActivity
 import com.example.foodapplication.adapter.AllCategoriesAdapter
 import com.example.foodapplication.adapter.MostPopularAdapter
 import com.example.foodapplication.databinding.FragmentHomeBinding

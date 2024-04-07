@@ -1,4 +1,4 @@
-package com.example.foodapplication.fragments
+package com.example.foodapplication.ui.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,9 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 
 import com.example.foodapplication.R
-import com.example.foodapplication.activity.CategoryMealActivity
-import com.example.foodapplication.activity.MainActivity
-import com.example.foodapplication.activity.MealActivity
+import com.example.foodapplication.ui.activity.CategoryMealActivity
+import com.example.foodapplication.ui.activity.MainActivity
+import com.example.foodapplication.ui.activity.MealActivity
 import com.example.foodapplication.adapter.AllCategoriesAdapter
 import com.example.foodapplication.adapter.CategoryMealAdapter
 import com.example.foodapplication.databinding.FragmentCategoriesBinding

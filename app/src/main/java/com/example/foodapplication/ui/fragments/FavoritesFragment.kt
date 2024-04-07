@@ -1,4 +1,4 @@
-package com.example.foodapplication.fragments
+package com.example.foodapplication.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 
-import com.example.foodapplication.activity.MainActivity
+import com.example.foodapplication.ui.activity.MainActivity
 import com.example.foodapplication.adapter.MealsAdapter
 import com.example.foodapplication.databinding.FragmentFavoritesBinding
 import com.example.foodapplication.viewmodel.HomeViewModel
